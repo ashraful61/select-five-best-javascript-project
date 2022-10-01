@@ -19,7 +19,7 @@ document.getElementById('total-budget-btn').addEventListener('click', function()
     }
 
     if(isNaN(managerBudgetInputValue) || isNaN(coachBudgetInputValue)){
-        alert('Please provide valid input')
+        alert('Please provide valid input for manager and coach')
         return
     }
 
