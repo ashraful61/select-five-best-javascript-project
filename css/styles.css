@@ -1,0 +1,27 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* utilities styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header-title {
+  font-family: "Berkshire Swash", cursive;
+  font-weight: 400;
+  font-size: 76px;
+}
+
+footer a {
+  font-family: "Berkshire Swash", cursive;
+}
+
+@media only screen and (max-width: 688px) {
+  .header-title {
+    font-size: 36px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
