@@ -1,6 +1,5 @@
 
 // Total Calculate button add event listener
-
 document.getElementById('total-budget-btn').addEventListener('click', function() {
     const managerBudgetInputValue = getInputValueById('manager-budget-input')
     const coachBudgetInputValue = getInputValueById('coach-budget-input')
@@ -11,6 +10,11 @@ document.getElementById('total-budget-btn').addEventListener('click', function()
     
     if(!selectedPlayers.childNodes.length) {
         alert('Please select your player first!')
+        return
+    }
+
+    if(isNaN(playersBudget)) {
+        alert('Please calculate players budget first!')
         return
     }
 

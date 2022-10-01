@@ -3,11 +3,11 @@
 
  document.getElementById('player-budget-btn').addEventListener('click', function() {
     const playerBudgetInputValue = getInputValueById('player-budget-input')
-    console.log(playerBudgetInputValue)
+    // console.log(playerBudgetInputValue)
 
     const selectedPlayers = document.querySelector('#selected-player')
     // const selectedPlayerNumber = selectedPlayers.childNodes.length
-    console.log(typeof (selectedPlayers.childNodes.length))
+    // console.log(typeof (selectedPlayers.childNodes.length))
     
     if(!selectedPlayers.childNodes.length){
         alert('Please select your player first!')
