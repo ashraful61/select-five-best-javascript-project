@@ -16,3 +16,8 @@ function setValueById(value, Id) {
     getElementId.innerText = value
 
 }
+
+function resetBudget() {
+    document.getElementById('player-budget').innerText = ''
+    document.getElementById('total-budget').innerText = ''
+}

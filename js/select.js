@@ -24,6 +24,7 @@ for (const player of players) {
         // Make disable and background color for recently selected button
         event.target.setAttribute('disabled', true)
         event.target.style.backgroundColor = '#A2A9AF'
+        resetBudget()
     })
     
  
